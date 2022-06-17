@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora só com CSS</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+        div{
+            margin: auto;
+            width:auto;
+            padding-left: 25vw;
+            padding-top: 2%;
+            padding-right: 25vw;
+        }
+        table{
+            border: 1px solid black;
+            padding: 30px;
+            background-color: yellow;
+        }
+        th{
+            color: black;
+        }
+        td{
+            border: 1px solid black;
+            border-collapse:collapse;
+            padding: 20px;
+            text-align: center;
+           
+        }
+      .visor{
+        padding: 35px;
+        background-color: black;
+        color: white;
+        border-color: red;
+        border: 3px solid red;
+      }
+    </style>
+</head>
+<body>
+    <h1> Calculadora Online</h1>
+    <div>
+        <table>
+            <tr>
+                <th style="padding-bottom: 20px; " colspan="4">Calculadora do PR</th>
+
+            </tr>
+            <tr>
+                <td class="visor" colspan="4"  >12345 </td>
+            </tr>
+                <tr>
+                    
+                    <td > <input style="color:red;"type="button" value="L"> </td>
+                    <td> <input type="button" value="d"> </td>
+                    <td> <input type="button" value="%"> </td>
+                    <td> <input type="button" value="/"></td>
+                </tr>
+            
+                <tr>
+                
+                    <td> <input type="button" value="7"> </td>
+                    <td> <input type="button" value="8"> </td>
+                    <td> <input type="button" value="9"> </td>
+                    <td > <input style="color:red;"type="button" value="X"> </td>
+                </tr>
+                <tr>
+                    
+                    <td> <input type="button" value="4"> </td>
+                    <td> <input type="button" value="5"> </td>
+                    <td> <input type="button" value="6"> </td>
+                    <td > <input style="color:red;"type="button" value="-"> </td>
+                </tr>
+                <tr>
+                   
+                    <td> <input type="button" value="1"> </td>
+                    <td> <input type="button" value="2"> </td>
+                    <td> <input type="button" value="3"> </td>
+                    <td > <input style="color:rgb(47, 168, 47);" type="button" value="+"> </td>
+                </tr>
+                <tr>
+                  
+                    <td></td>
+                    <td> <input type="button" value="0"> </td>
+                    <td> <input type="button" value=","> </td>
+                    <td > <input style="color:rgb(47, 168, 47);" type="button" value="="> </td>
+                </tr>
+           
+        </table>
+    </div>
+</body>
+</html>
